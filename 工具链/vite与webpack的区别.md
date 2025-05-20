@@ -62,3 +62,7 @@ export default defineConfig({
   plugins: [vue()],
 });
 ```
+
+## 面试话术
+
+> “Vite 相比 Webpack 更快的本质，是它利用了浏览器的原生模块系统，跳过了传统的打包流程。开发时通过 esbuild 预编译依赖，源代码按需加载，启动速度极快。构建阶段使用 Rollup 做按需优化和 Tree-shaking，而不是像 Webpack 那样全量打包依赖图。此外，Vite 的 HMR 机制模块级别粒度更细，不中断状态，极大提升了开发体验。”
